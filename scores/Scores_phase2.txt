@@ -1,7 +1,8 @@
 Item 2-2: 0 / 2 passed | score: 0
-Item 6: 0 / 6 passed | score: 0
-Item 7: 0 / 2 passed | score: 0.0
-Item 8: 0 / 2 passed | score: 0.0
------------------------------------------
-Phase 2: your score of coding section: 0.0  (part)
------------------------------------------
+Item 3: 0 / 1 passed | score: 0
+Traceback (most recent call last):
+  File "coding_grader/coding_grades_total_ph2.py", line 9, in <module>
+    pass_num = get_ok_num_perq("grades/Q%sres_.txt" % q_num)
+  File "/home/runner/work/2022Fall_TrojanMap/2022Fall_TrojanMap/coding_grader/utils.py", line 4, in get_ok_num_perq
+    file = open(tresfile,"r")
+IOError: [Errno 2] No such file or directory: 'grades/Q5res_.txt'
